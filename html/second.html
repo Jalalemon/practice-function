@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+
+    <header>
+        <h1>Baper Bank Mere jomano Taka</h1>
+    </header>
+    <main>
+        <input id="d-field" type="text">
+        <button id="d-btn">deposit</button>
+        <h2 id="d-output" >00</h2>
+        <br>
+        <br>
+        
+        <input id="w-input" type="text">
+        <button id="w-btn">withdraw</button>
+        <h2 id="w-output">00</h2>
+
+        <br>
+        <br>
+        <h1 id="total-balance"> 1240 </h1>
+        
+        <button onclick="myFunction()">Go To the second page </button>
+    </main>
+    <script src="/js/deposir.js"></script>
+    <script src="/js/utilities.js"></script>
+    <script src="/js/withdraw.js"></script>
+    
+    <script>
+        function myFunction() {
+            location.href = "second.html";
+        }
+    </script>
+
+</body>
+</html>

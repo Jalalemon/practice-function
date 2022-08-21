@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-center mt-5 text-4xl text-blue-900 font-semibold">Money master</h1>
+    </header>
+    <main>
+        <section class=" font-semibold text-center text-2xl mt-5">
+            <h1>Income</h1>
+            <p>Income: <input id="income-field" class="bg-gray-300 mt-5 text-white-500" type="text"> </p>
+            <h1>Expences</h1>
+            <p>Food:    <input id="food-field" class="bg-gray-300 mt-5 text-white-500" type="text"> </p>
+           
+            <p>Rent: <input id="rent-field" class="bg-gray-300 mt-5 text-white-500" type="text"> </p>
+  
+            <p>Clothes: <input id="cloth-field" class="bg-gray-300 mt-5 text-white-500" type="text"> </p>
+        </section>
+
+    <section>
+       <div class=" text-center mt-5 ">
+        <button id="calculate-btn" class="bg-blue-400 rounded-lg px-8 font-semibold text-white py-3 text-center">Calculate</button>
+        <h1 class=" font-semibold text-center text-2xl mt-5 "> Total Expences:<span id='total-expences' >000</span></h1>
+        <h1 class=" font-semibold text-center text-2xl mt-5 " > Balance:<span id="total-balance" >000</span> </h1>
+       </div>
+    </section>
+
+    <section>
+        <div class="font-semibold text-center mb-8 text-2xl mt-5">
+            <p>Save: <input id="save-field" class="bg-gray-300 w-20 mt-5 text-white-500" type="text"> % <button id="save-btn" class="bg-blue-400 rounded-lg px-6 font-semibold text-white py-2 text-center">Save</button> </p>
+            <h1 class=" font-semibold text-center text-2xl mt-5 "> Save:<span id="save-amount" >000</span> </h1>
+            <h1 class=" font-semibold text-center text-2xl mt-5 ">Remaining Balance: <span id="remain-balance" >000</span> </h1>
+
+        </div>
+
+    </section>
+
+
+    </main>
+    <button onclick="myFunction()" class="bg-sky-500">Take me to w3schools.com</button>
+    
+    <script>
+        function myFunction() {
+            location.href = "http://127.0.0.1:5500/html/second.html";
+        }
+    </script>
+
+</body>
+</html>
